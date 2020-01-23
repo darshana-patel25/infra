@@ -1,0 +1,71 @@
+
+  <div class="wrapper" data-section-id="{{ section.id }}">
+     <h4 class="h1 main_title">
+        <span class="title-border"> {{ section.settings.title }}</span>
+    </h4>
+    <div id="testimonial">
+      <div class="owl-carousel owl-theme">
+    {% for block in section.blocks %}
+          <div class="item grid-item small--one-whole medium--three-fifths large--seven-tenths">
+  
+            <div class="testimonial_content">
+              <h2>{{ block.settings.testimoniale_title}}</h2>
+              {% if block.settings.image %}
+              {{ block.settings.image | img_url: 'small' | img_tag: block.settings.image.alt, 'logo-bar__image' }}
+              {% endif %}
+              <p>{{ block.settings.testimonial_content }}</p>
+              <span>{{ block.settings.testimoniale_authore }}</span>
+            </div>
+          </div>
+    {% endfor %}
+    </div>
+    </div>
+  </div>
+
+{% schema %}
+  {
+    "name": "Testimonial",
+    "class": "testimonial",
+    "max_blocks": 12,
+    "blocks": [
+      {
+        "type": "testimonial",
+        "name": "testimonial content",
+        "settings": [
+        {
+            "type": "text",
+            "id": "testimoniale_title",
+            "label": "Testimonial title"
+          },
+		 {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "testimonial_content",
+            "label": "Testimonial Content",
+            "default":"I purchased the 4-pack swaddles on a recommendation as part of a baby shower gift and it was a success ! the order to delivery through aden and anais was swift and professional. thank you !"
+          },
+          {
+            "type": "text",
+            "id": "testimoniale_authore",
+            "label": "Testimonial authore"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonial",
+        "category": "Content",
+        "blocks": [
+          {
+            "type": "testimonial"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

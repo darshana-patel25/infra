@@ -1,0 +1,114 @@
+{% assign meganav = false %}
+{% for block in section.blocks %}
+{% if block.settings.menu_item == link.title %}
+{% capture megalink %}
+<li class="site-nav--has-dropdown site-nav--has-centered-dropdown {% if link.active %}site-nav--active{% endif %}" aria-haspopup="true" aria-expanded="false">{{ link.title | link_to: link.url }}
+  <ul class="megamenu site-nav--dropdown">
+    <div class="site-nav__childlist">
+      <ul class="site-nav__childlist-grid">
+        {% if block.settings.nav_image1 != blank  %}
+        <li class="site-nav__childlist-item count-column">
+          {%- assign image_size = '240x240' -%}
+          <a class="product-grid-nav" href="{{ block.settings.link1 }}">
+            <div class="product-grid-image">
+              <div class="product-grid-image--centered">
+                <img src="{{ block.settings.nav_image1 | img_url: image_size }}">
+              </div>
+            </div>
+            <p class="productnav_title">{{ block.settings.navtitle1 }}</p>
+          </a>
+
+        </li>
+        {% endif %}
+        {% if block.settings.nav_image2 != blank  %}
+        <li class="site-nav__childlist-item count-column">
+          {%- assign image_size = '240x240' -%}
+          <a class="product-grid-nav" href="{{ block.settings.link2 }}">
+            <div class="product-grid-image">
+              <div class="product-grid-image--centered">
+                <img src="{{ block.settings.nav_image2 | img_url: image_size }}">
+              </div>
+            </div>
+            <p class="productnav_title">{{ block.settings.navtitle2 }}</p>
+          </a>
+        </li>
+        {% endif %}
+        {% if block.settings.nav_image3 != blank  %}
+        <li class="site-nav__childlist-item count-column">
+          {%- assign image_size = '240x240' -%}
+          <a class="product-grid-nav" href="{{ block.settings.link3 }}">
+            <div class="product-grid-image">
+              <div class="product-grid-image--centered">
+                <img src="{{ block.settings.nav_image3 | img_url: image_size }}">
+              </div>
+            </div>
+            <p class="productnav_title">{{ block.settings.navtitle3 }}</p>
+          </a>
+
+        </li>
+        {% endif %}
+        {% if block.settings.nav_image4 != blank  %}
+        <li class="site-nav__childlist-item count-column">
+          {%- assign image_size = '240x240' -%}
+          <a class="product-grid-nav" href="{{ block.settings.link4 }}">
+            <div class="product-grid-image">
+              <div class="product-grid-image--centered">
+                <img src="{{ block.settings.nav_image4 | img_url: image_size }}">
+              </div>
+            </div>
+            <p class="productnav_title">{{ block.settings.navtitle4 }}</p>
+          </a>
+
+        </li>
+        {% endif %}
+        {% if block.settings.nav_image5 != blank  %}
+        <li class="site-nav__childlist-item count-column">
+          {%- assign image_size = '240x240' -%}
+          <a class="product-grid-nav" href="{{ block.settings.link5 }}">
+            <div class="product-grid-image">
+              <div class="product-grid-image--centered">
+                <img src="{{ block.settings.nav_image5 | img_url: image_size }}">
+              </div>
+            </div>
+            <p class="productnav_title">{{ block.settings.navtitle5 }}</p>
+          </a>
+
+        </li>
+        {% endif %}
+      </ul>
+
+    </div>
+  </ul>
+</li>
+{% endcapture %}
+{% assign meganav = true %}
+{% endif %}
+{% endfor %}
+{% if meganav %}
+{{ megalink }}
+{% elsif link.links != blank %}
+<li class="site-nav--has-dropdown count_li site-nav--has-centered-dropdown {% if link.active %}site-nav--active{% endif %}" aria-haspopup="true" aria-expanded="false">{{ link.title | link_to: link.url }}
+  <ul class="site-nav--dropdown">
+    {% for childlink in link.links %}
+    <li class="{% if childlink.active %}site-nav--active {% endif %}{% if childlink.links != blank %} site_nav-has-dropdown{% endif %}">
+      <a href="{{ childlink.url }}" class="site-nav__link site-nav__child-link{% if forloop.last %} site-nav__link--last{% endif %}"{% if childlink.active %} aria-current="page"{% endif %}>
+        {{ childlink.title | escape }}
+        {% if childlink.links != blank %}{% include 'icon-chevron-down' %}{% endif %}
+      </a>
+      {% if childlink.links != blank %}
+      <ul class="drop_down_nav">
+        {% for grandchildlink in childlink.links %}
+        <li>
+          <a href="{{ grandchildlink.url }}" class="site-nav__link site-nav__child-link"{% if grandchildlink.active %} aria-current="page"{% endif %}>
+            {{ grandchildlink.title | escape }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+<li>{{ link.title | link_to: link.url }}</li>
+{% endif %}

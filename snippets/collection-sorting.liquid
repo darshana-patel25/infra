@@ -1,0 +1,46 @@
+
+  <ul name="sort_by" aria-describedby="a11y-refresh-page-message" id="sortBy">
+    
+  {% assign sort_by = collection.sort_by | default: collection.default_sort_by %}
+    {% for option in collection.sort_options %}
+    <li class="sortby_li"><a href="#sort" data-select="{{option.value}}">{{ option.name }}</a></li>
+    {% endfor %}
+  </ul>
+
+
+<script>
+  Shopify.queryParams = {};
+  if (location.search.length) {
+    for (var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+      aKeyValue = aCouples[i].split('=');
+      if (aKeyValue.length > 1) {
+        Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+      }
+    }
+  }
+    var $select = $('#sortBy');
+    $('a[href="#sort"]').click(function () {
+        $select.val( $(this).data('select') );
+        event.preventDefault();
+        Shopify.queryParams.sort_by = jQuery(this).data('select');
+        location.search = jQuery.param(Shopify.queryParams);
+    });
+//       var $select = $('.filter').find('#sortBy');
+//     $('a[href="#sort"]').click(function () {
+//       alert('dvgfg');
+//         $select.val( $(this).data('select') );
+//         event.preventDefault();
+//         Shopify.queryParams.sort_by = jQuery(this).data('select');
+//         location.search = jQuery.param(Shopify.queryParams);
+//     });
+  $(function() {
+    $('#sortBy')
+      // select the current sort order
+      .val('{{ collection.sort_by | default: collection.default_sort_by | escape }}')
+      .bind('change', function() {
+        Shopify.queryParams.sort_by = jQuery(this).val();
+        location.search = jQuery.param(Shopify.queryParams).replace(/\+/g, '%20');
+      }
+    );
+  });
+</script>

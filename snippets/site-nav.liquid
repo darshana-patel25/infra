@@ -1,0 +1,17 @@
+<ul class="site-nav" id="AccessibleNav">
+
+  {% for link in linklists[section.settings.menu].links %}
+  {% include 'navigation' %}
+  {% endfor %}
+ 
+
+  {% if shop.customer_accounts_enabled %}
+    {% if customer %}
+      <li class="customer-navlink large--hide"><a href="/account">{{ 'layout.customer.view_account' | t }}</a></li>
+      <li class="customer-navlink large--hide">{{ 'layout.customer.log_out' | t | customer_logout_link }}</li>
+    {% else %}
+      <li class="customer-navlink large--hide">{{ 'layout.customer.sign_in' | t | customer_login_link }}</li>
+      <li class="customer-navlink large--hide">{{ 'layout.customer.create_account' | t | customer_register_link }}</li>
+    {% endif %}
+  {% endif %}
+</ul>

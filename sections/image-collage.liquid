@@ -1,0 +1,95 @@
+
+  <div id="image-gallery-{{ section.id }}">
+
+      <div class="item grid-item left_grid small--one-whole medium-down--hide medium--three-fifths large--one-third">
+        {{ section.settings.image_left | img_url: 'master' | img_tag: section.settings.image_left.alt, 'image left' }}
+      </div>
+
+      <div class="item grid-item center_grid small--one-whole medium--one-whole large--one-third">
+          <div class="center_top">
+
+            <div class="item grid-item center_left small--one-half medium--one-half large--one-half">
+              {{ section.settings.image_center_left | img_url: 'master' | img_tag: section.settings.image_center_left.alt, 'image center left' }}
+            </div>
+            <div class="item grid-item center_right small--one-half medium--one-half large--one-half">
+              {{ section.settings.image_center_right | img_url: 'master' | img_tag: section.settings.image_center_right.alt, 'image center right' }}
+            </div>
+
+          </div>
+
+          <div class="center_bottom">
+            {{ section.settings.image_center_bottom | img_url: 'master' | img_tag: section.settings.image_center_bottom.alt, 'image center bottom' }}
+          </div>
+
+      </div>
+
+      <div class="item grid-item right_grid medium-down--hide small--one-whole medium--three-fifths large--one-third">
+        {{ section.settings.image_right | img_url: 'master' | img_tag: section.settings.image_right.alt, 'image right' }}
+      </div>
+    <div class="mobile_shop large--hide">
+      <a href="{{ section.settings.shop_url1 }}">Shop lips</a>
+      <a href="{{ section.settings.shop_url2 }}">Shop skin</a>
+    </div>
+    
+
+  </div>
+
+{% schema %}
+  {
+    "name": "Image collage",
+    "class": "gallery",
+        "settings": [
+		 {
+            "type": "image_picker",
+            "id": "image_left",
+            "label": "Image Left",
+			"info":"image size(635px*1032px)"
+          },
+		 {
+            "type": "image_picker",
+            "id": "image_center_left",
+            "label": "Image center left",
+			"info":"image size(318px*390px)"
+          },
+ 		{
+            "type": "image_picker",
+            "id": "image_center_right",
+            "label": "Image center right",
+			"info":"image size(318px*390px)"
+          },
+ 		{
+            "type": "image_picker",
+            "id": "image_center_bottom",
+            "label": "Image center bottom",
+			"info":"image size(640px*636px)"
+         },
+ 		{
+            "type": "image_picker",
+            "id": "image_right",
+            "label": "Image right",
+			"info":"image size(635px*1032px)"		
+
+         },
+		{
+            "type": "url",
+            "id": "shop_url1",
+            "label": "Shop link-1"	
+
+         },
+		{
+            "type": "url",
+            "id": "shop_url2",
+            "label": "Shop link-2"	
+
+         }
+ 
+        ],
+        "presets": [
+        {
+        "name": "Image collage",
+        "category": "Image"
+        }
+        ]
+  }
+{% endschema %}
+

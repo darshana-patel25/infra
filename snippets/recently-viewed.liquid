@@ -1,0 +1,103 @@
+{{ '//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js' | script_tag }}
+{{ 'jquery.products.min.js' | asset_url | script_tag }}
+
+<div id="recently-viewed-products" class="collection grid-uniform clearfix" style="display:none">
+  <h2 class="h1 recent_title">ACCOMPANY WITH</h2>
+</div>
+
+{% raw %}
+<script id="recently-viewed-product-template"  type="text/x-jquery-tmpl">
+
+<div id="product-${handle}" class="product grid-item large--one-quarter medium--one-third small--one-half">
+  <div class="image">
+    <a href="${url}">
+      <img src="${Shopify.Products.resizeImage(featured_image, "medium")}" />
+    </a>
+  </div>
+  <div class="details">
+    <a href="${url}">
+      <p class="product_title">${title}</p>
+      <div class="product-item--price">
+      <span class="h1 medium--left">{{if price_varies}}{{/if}}${Shopify.formatMoney(price)}</span>
+      </div>
+      <form method="post" action="/cart/add" class="addtocartcollform quickrecent" id="product_form_${variants[0].id}" accept-charset="UTF-8"> 
+        <input type="hidden" name="form_type" value="product">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="id" value="${variants[0].id}" />
+        {{if available}}
+        <button type="submit" name="add" class="prodcut_minicart size_btn">
+          Quick add +
+        </button>
+        {{else}}
+          <button type="submit" name="add"  class="sold_out_btn disabled" disabled="disabled">
+      	   <span>Sold Out</span>
+          </button>
+        {{/if}}
+        
+     </form>
+    </a>
+  </div>
+</div>
+</script>
+{% endraw %}
+<script>
+Shopify.Products.showRecentlyViewed( { howManyToShow:4 } );
+</script>
+<style>
+/* Some styles to get you started */
+.collection {
+clear: both;
+padding-top: 50px;
+}
+.collection .product {
+float: left;
+text-align: center;
+padding-left: 30px;
+position: relative; /* used to display absolutely positioned sale tag */
+overflow: hidden;
+clear:unset !important;
+}
+.collection .product.last {
+margin-right: 0;
+}
+.collection .product .image {
+margin-bottom: 10px;
+overflow: hidden;
+}
+.collection .product .cy {
+display: block;
+margin: 0 auto;
+}
+.collection .product .title {
+display: block;
+line-height: 16px;
+font-size: 12px;
+color: #222;
+font-weight: 700;
+}
+.collection .product .price {
+display: block;
+line-height: 16px;
+font-size: 11px;
+color: #777;
+font-weight: normal;
+}
+.details {
+ text-align: left;
+  position:relative;
+}
+  .details a:hover form {
+    display: block;
+  }
+/* new clearfix */
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+</style>

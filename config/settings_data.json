@@ -1,0 +1,993 @@
+{
+  "current": {
+    "color_primary": "#123b7e",
+    "color_secondary": "#ede7df",
+    "color_accent": "#123b7e",
+    "color_body_bg": "#fff",
+    "color_borders": "#ececec",
+    "product_reviews_star_color": "#e2b2b2",
+    "color_header_background": "#ffffff",
+    "color_header_text": "#123b7e",
+    "color_header_cart_search": "#0f243d",
+    "color_nav_bg": "#ffffff",
+    "color_nav_text": "#123b7e",
+    "color_body_text": "#123b7e",
+    "color_heading_text": "#123b7e",
+    "color_footer_bg": "#001e60",
+    "color_footer_text": "#ede7df",
+    "color_footer_social_link": "#ffffff",
+    "type_base_font": "montserrat_n5",
+    "type_base_size": "13px",
+    "type_header_font": "montserrat_n7",
+    "type_header_transform": true,
+    "type_accent_font": "montserrat_n5",
+    "type_navigation_size": "14px",
+    "type_navigation_transform": false,
+    "type_button_size": "14px",
+    "type_button_transform": true,
+    "favicon": "",
+    "cart_notes_enable": false,
+    "ajax_cart_method": "drawer",
+    "share_image": "",
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/infracyteusa\/",
+    "social_pinterest_link": "",
+    "social_google_plus_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/infracyte\/",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_sharing_style": "is-default",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "superscript_decimals": false,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#123b7e",
+    "checkout_button_color": "#123b7e",
+    "checkout_error_color": "#e32c2b",
+    "collection_sidebar_filters": "tags",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1554186776895": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Lips",
+              "nav_image1": "shopify:\/\/shop_images\/326Main_Attraction_6186ff7d-4be9-40f9-a802-1cfe05a6444d_1.jpg",
+              "link1": "https:\/\/infracyte.myshopify.com\/collections\/lips\/lips_regular",
+              "navtitle1": "Luscious Lips",
+              "nav_image2": "shopify:\/\/shop_images\/322Twinkle_Winkle_1.jpg",
+              "link2": "https:\/\/infracyte.myshopify.com\/collections\/lips\/lips_sensitive",
+              "navtitle2": "Luscious Lips Sensitive",
+              "nav_image3": "shopify:\/\/shop_images\/mega_menu_lips.png",
+              "link3": "shopify:\/\/collections\/lips",
+              "navtitle3": "Shop All",
+              "nav_image4": "",
+              "link4": "",
+              "navtitle4": "",
+              "nav_image5": "",
+              "link5": "",
+              "navtitle5": ""
+            }
+          },
+          "1554202413697": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Face",
+              "nav_image1": "shopify:\/\/shop_images\/mega_menu_cleanse.png",
+              "link1": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_cleanse-tone",
+              "navtitle1": "Cleanse & Tone",
+              "nav_image2": "shopify:\/\/shop_images\/mega_menu_repair.png",
+              "link2": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_correct",
+              "navtitle2": "Correct",
+              "nav_image3": "shopify:\/\/shop_images\/mega_menu_moisturize.png",
+              "link3": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_moisturize",
+              "navtitle3": "Moisturize",
+              "nav_image4": "shopify:\/\/shop_images\/mega_menu_eye_and_neck_3cd782eb-b131-453a-82cc-78305d654a8c.png",
+              "link4": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_eye-neck",
+              "navtitle4": "Eye & Neck",
+              "nav_image5": "shopify:\/\/shop_images\/mega_menu_protect.png",
+              "link5": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_protect",
+              "navtitle5": "Protect"
+            }
+          }
+        },
+        "block_order": [
+          "1554186776895",
+          "1554202413697"
+        ],
+        "settings": {
+          "menu": "main-menu",
+          "menu_mobile": "mobile-menu",
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": "287.5",
+          "show_announcement": true,
+          "announcement_text": "SALE IS NOW ON!",
+          "announcement_link": "shopify:\/\/collections\/all",
+          "imitators_text": "<h2>WATCH OUT FOR FAKERS<\/h2>\n  <span class=\"border_imitors\"><\/span>\n  <p>We have been alerted about the sale of counterfeit INFRACYTE Luscious \n    Lips in the market. To ensure quality & authenticity of your INFRACYTE Luscious Lips product, always purchase it from our authorized sellers. \n    For more information about our sellers, please <a href=\"\/pages\/contact\">contact us.<\/a><\/p>\n  <p class=\"red_cnt\">These are not our authorized sellers<\/p>\n  <a href=\"\">www.iskinchina.cc<\/a><br>\n  <a href=\"\">blog.sina.com.cn\/lipaddict<\/a><br>\n  <a href=\"\">www.weibo.com\/Lipaddict<\/a>"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "menu": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "footer",
+              "width": "25%"
+            }
+          },
+          "1553664348111": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "terms",
+              "width": "25%"
+            }
+          },
+          "1553665604330": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "richtext": "",
+              "width": "25%"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "",
+              "subtext": "<p>Sign up for newsletter<\/p>",
+              "width": "25%"
+            }
+          }
+        },
+        "block_order": [
+          "menu",
+          "1553664348111",
+          "1553665604330",
+          "newsletter"
+        ],
+        "settings": {
+          "social_enabled": true,
+          "site_text": "Site by willa",
+          "show_payment_icons": false,
+          "legal_menu": ""
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-list-0": {
+            "type": "collection",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/featured.jpg",
+              "block_text": "Shop Face",
+              "collection": "shopify:\/\/collections\/face"
+            }
+          },
+          "collection-list-1": {
+            "type": "collection",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/featured2.jpg",
+              "block_text": "Shop Lips",
+              "collection": "shopify:\/\/collections\/lips"
+            }
+          }
+        },
+        "block_order": [
+          "collection-list-0",
+          "collection-list-1"
+        ],
+        "settings": {}
+      },
+      "collection-row-1": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "",
+          "question": "DON'T JUST GLOSS OVER YOUR LIPS - ANTI-AGE THEM!",
+          "content": "INFRACYTE Luscious Lips is more than just just another lip gloss with color - it’s an Anti-Aging Lip Treatment that leaves the lips feeling healthier, hydrated, and looking more youthful!  Hyaluronic Acid brings deep moisturization to the lips, advanced peptides anti-age and reduce the appearance of lip lines, powerful antioxidants provide protection from free radicals, and organic oils condition lips, leaving them feeling healthier, softer and more youthful!  It’s perfect on its own, or you can use it after your injectable lip filler treatment to enhance and maintain the appearance of lips.",
+          "home_featured_row": "lips",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "collection-row-2": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "",
+          "question": "WHAT IS INFRACYTE SKINCARE?",
+          "content": "Supported by doctors, dermatologists and aesthetic doctors worldwide, INFRACYTE is committed to transforming lives through the science of skincare.  Through a science-backed and results-driven focus, INFRACYTE delivers targeted skin care solutions to correct and reverse the signs of aging, resulting in a younger, more natural you!",
+          "home_featured_row": "face",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "1553509646294": {
+        "type": "collection-list",
+        "blocks": {
+          "1553509646294-0": {
+            "type": "collection",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/featured3.jpg",
+              "block_text": "Shop Moisturize",
+              "collection": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_moisturize"
+            }
+          },
+          "1553509646294-1": {
+            "type": "collection",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/featured4.jpg",
+              "block_text": "Shop Correct",
+              "collection": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_correct"
+            }
+          }
+        },
+        "block_order": [
+          "1553509646294-0",
+          "1553509646294-1"
+        ],
+        "settings": {}
+      },
+      "1553519877729": {
+        "type": "testimonial",
+        "blocks": {
+          "1553519877729-0": {
+            "type": "testimonial",
+            "settings": {
+              "testimoniale_title": "EXPERTS SAY",
+              "image": "",
+              "testimonial_content": "As an anti-aging specialist, I have been absolutely delighted with the Luscious Lips range. They provide an easy effective lip treatment. They quickly add volume and moisture resulting in a stunningly youthful appearance of the lips without making them look unnatural. At the same time the lipsticks provide a healing and moisturising treatment. I heartily recommend them!",
+              "testimoniale_authore": "Dr Anne Chappel Anti-aging Physician Sydney, Australia"
+            }
+          },
+          "1553519889631": {
+            "type": "testimonial",
+            "settings": {
+              "testimoniale_title": "EXPERTS SAY",
+              "image": "",
+              "testimonial_content": "Just about everything you do to lips will either dry them or age them.. Infracyte’s Luscious Lips is my offering to counter that. On top of this it is also a convincer for those patients that were wondering if they should have their lips enhanced as well as a finisher for those that would like optimum outcomes for a little while longer.",
+              "testimoniale_authore": "Dr Chris Giezing Director of the Medskills Training Academy  South Africa"
+            }
+          },
+          "1553519895102": {
+            "type": "testimonial",
+            "settings": {
+              "testimoniale_title": "EXPERTS SAY",
+              "image": "",
+              "testimonial_content": "I am an experienced Anti-aging specialist and I absolutely recommend Luscious Lips. Not only am I fond of the high-end ingredients but I am also absolutely convinced by the product´s quick response and effect. Luscious Lips noticeably enhances lip injection results and prolongs those results over time by nurturing the skin. This leads to the remarkably youthful appearance of the lips.",
+              "testimoniale_authore": "Dr. Bojan Vucic Medical Director, Cosmedicpoint Gratkorn Gratkorn, Austria"
+            }
+          },
+          "1553519896479": {
+            "type": "testimonial",
+            "settings": {
+              "testimoniale_title": "EXPERTS SAY",
+              "image": "",
+              "testimonial_content": "Luscious Lips is a premium product for the lips with healing, hydrating and visually enhancing properties. I was very excited to discover it at medical conferences and Anti-aging congresses for Dermatologists. Such product specifically formulated for lips was missing from the market. I find the ingredient list as very convincing and therefore recommend Luscious Lips to my patients as a high quality lip care product for daily use as well as for prolonging lip injection results.",
+              "testimoniale_authore": "Dr. Kristine Azarjana MD, PhD   Dermatologist, Laserplastikas Clinic Riga, Latvia"
+            }
+          },
+          "1556915845947": {
+            "type": "testimonial",
+            "settings": {
+              "testimoniale_title": "",
+              "image": "",
+              "testimonial_content": "Luscious Lips can give the similar effects of lip injections to these patients without any pain. Luscious Lips can minimize the appearance of lines on lips and define lip contour as well as they give the lips the great benefits for healing, moisturizing and plumping and also the gorgeous looks. My patients love to use Luscious Lips to enhance the effects of lip injections and to obtain naturally beautiful lips. My patients can select favorite one from 12 cool shades even though normally medicinal lip products do not have many colors. I absolutely recommend you Luscious Lips.",
+              "testimoniale_authore": "Dr. Michihiko Kinoshita – D.M.D, Ph.D., CEO of Aesthetic maxillofacial surgery Medical corporation IBUKI Fukuoka, Japan"
+            }
+          },
+          "1556915871455": {
+            "type": "testimonial",
+            "settings": {
+              "testimoniale_title": "",
+              "image": "",
+              "testimonial_content": "Finally I get to buy INFRACYTE Luscious Lips® and experienced its wonders! It definitely did not disappoint me! It is not only moisturizing, but helps to plump my lips and restored youthful healthy lips instantly!",
+              "testimoniale_authore": "Dr. Bulent Cihantimur MD, Plastic Surgeon, Turkey"
+            }
+          },
+          "1556915908872": {
+            "type": "testimonial",
+            "settings": {
+              "testimoniale_title": "",
+              "image": "",
+              "testimonial_content": "Luscious Lips enhances the look, shape and the volume of the lips of my patients. This lip plumper keep the lips hydrated and my patients achieve fuller looking lips. After lip injections Luscious Lips prolongs the results.",
+              "testimoniale_authore": "Dr. Lars Haastedt Plastic Surgeon, Norway"
+            }
+          }
+        },
+        "block_order": [
+          "1553519877729-0",
+          "1553519889631",
+          "1553519895102",
+          "1553519896479",
+          "1556915845947",
+          "1556915871455",
+          "1556915908872"
+        ],
+        "settings": {}
+      },
+      "image-with-text": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/infracyte-lips.png",
+          "layout": "left",
+          "title": "OUR PROMISE",
+          "text": "<p>A professional skin transformation program that works to diminish visible signs of aging. Designed by top scientists from the fields of cellular and molecular biology, chemistry, biophysics and medicine and qualified dermatologists, INFRACYTE&trade; incorporates scientifically advanced technology and top nutrient formulation to give this program three (3) fundamental benefits: corrects previous damages, protects healthy skin and prevents future damage. Meticulously and scientifically blended by well-established laboratories in United States, INFRACYTE&trade; provides quality products.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "1554439218414": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ic_0000_Layer-3.png",
+              "link": "",
+              "cta_label": "<p><strong>Transform<\/strong><\/p>\n<p>Don&rsquo;t cover up with make-up! INFRACYTE treatments help exfoliate and stimulate cell turnover so you can reveal your own brighter, more youthful skin! &nbsp;<\/p>"
+            }
+          },
+          "1554439240185": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ic_0001_Layer-4.png",
+              "link": "",
+              "cta_label": "<p><strong>Support<\/strong><\/p>\n<p><\/p>\n<p>INFRACYTE is so much more than just a surface treatment. Powerful proprietary peptides help to rebuild collagen under the skin, reducing the appearance of fine lines and wrinkles, improving skin texture and increasing skin elasticity, leaving your skin feeling supple and smooth.<\/p>"
+            }
+          },
+          "1554439268432": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ic_0002_Layer-5.png",
+              "link": "",
+              "cta_label": "<p><strong>Anti-Age<\/strong><\/p>\n<p>The best treatment is prevention. &nbsp;But when that&rsquo;s not an option, INFRACYTE&rsquo;s anti-aging solutions can help prevent further damage, as well as turn back time so you can have the younger skin you remember!<\/p>"
+            }
+          },
+          "1554439283961": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ic_0003_Layer-6.png",
+              "link": "",
+              "cta_label": "<p><strong>Clinically proven<\/strong><\/p>\n<p>Designed by cosmetic scientists and dermatologists, INFRACYTE is supported by science and trusted by doctors around the world to bring proven results.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1554439218414",
+          "1554439240185",
+          "1554439268432",
+          "1554439283961"
+        ],
+        "settings": {
+          "heading": "THE SCIENCE"
+        }
+      },
+      "1554444611609": {
+        "type": "image-collage",
+        "settings": {
+          "image_left": "shopify:\/\/shop_images\/collage2.jpg",
+          "image_center_left": "shopify:\/\/shop_images\/collage4.png",
+          "image_center_right": "shopify:\/\/shop_images\/collage5.png",
+          "image_center_bottom": "shopify:\/\/shop_images\/collage3.png",
+          "image_right": "shopify:\/\/shop_images\/collage.jpg",
+          "shop_url1": "shopify:\/\/collections\/lips",
+          "shop_url2": "shopify:\/\/collections\/skin"
+        }
+      },
+      "about-image-with-text": {
+        "type": "about-image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/infracyte-skin.png",
+          "layout": "right",
+          "title": "THE TRANSFORMATION",
+          "text": "<p>A professional skin transformation program that works to diminish visible signs of aging. Designed by top scientists from the fields of cellular and molecular biology, chemistry, biophysics and medicine, as well as qualified dermatologists, INFRACYTE&trade; incorporates scientifically advanced technology and top nutrient formulation to give this program three (3) fundamental benefits: corrects previous damages, protects healthy skin and prevents future damage. Meticulously and scientifically blended by well-established laboratories in United States, INFRACYTE&trade; provides quality products.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "press-page-section": {
+        "type": "press-page-section",
+        "blocks": {
+          "1554701450999": {
+            "type": "text",
+            "settings": {
+              "link_text": "FLuscious Lips taking the world by storm – Japan",
+              "link_url": "#"
+            }
+          },
+          "1554701454080": {
+            "type": "text",
+            "settings": {
+              "link_text": "12th EADV Spring Symposium 2015 – Valencia",
+              "link_url": "#"
+            }
+          },
+          "1554701455809": {
+            "type": "text",
+            "settings": {
+              "link_text": "13th Aesthetic &amp; Anti-Aging Medicine World Congress",
+              "link_url": "#"
+            }
+          },
+          "1554701708139": {
+            "type": "text",
+            "settings": {
+              "link_text": "FLuscious Lips taking the world by storm – Japan",
+              "link_url": "#"
+            }
+          },
+          "1554701721596": {
+            "type": "text",
+            "settings": {
+              "link_text": "12th EADV Spring Symposium 2015 – Valencia",
+              "link_url": "#"
+            }
+          },
+          "1554701735610": {
+            "type": "text",
+            "settings": {
+              "link_text": "13th Aesthetic &amp; Anti-Aging Medicine World Congress",
+              "link_url": "#"
+            }
+          },
+          "1554701742082": {
+            "type": "text",
+            "settings": {
+              "link_text": "FLuscious Lips taking the world by storm – Japan",
+              "link_url": "#"
+            }
+          },
+          "1554701752490": {
+            "type": "text",
+            "settings": {
+              "link_text": "12th EADV Spring Symposium 2015 – Valencia",
+              "link_url": "#"
+            }
+          },
+          "1554701764514": {
+            "type": "text",
+            "settings": {
+              "link_text": "13th Aesthetic &amp; Anti-Aging Medicine World Congress",
+              "link_url": "#"
+            }
+          },
+          "1554701769970": {
+            "type": "text",
+            "settings": {
+              "link_text": "FLuscious Lips taking the world by storm – Japan",
+              "link_url": "#"
+            }
+          },
+          "1554701777175": {
+            "type": "text",
+            "settings": {
+              "link_text": "12th EADV Spring Symposium 2015 – Valencia",
+              "link_url": "#"
+            }
+          },
+          "1554701790676": {
+            "type": "text",
+            "settings": {
+              "link_text": "13th Aesthetic &amp; Anti-Aging Medicine World Congress",
+              "link_url": "#"
+            }
+          }
+        },
+        "block_order": [
+          "1554701450999",
+          "1554701454080",
+          "1554701455809",
+          "1554701708139",
+          "1554701721596",
+          "1554701735610",
+          "1554701742082",
+          "1554701752490",
+          "1554701764514",
+          "1554701769970",
+          "1554701777175",
+          "1554701790676"
+        ],
+        "settings": {}
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "grid": "4",
+          "rows": "6",
+          "collection_sidebar_filters": "groups",
+          "product_show_compare_at_price": false,
+          "product_show_saved_amount": true,
+          "product_reviews_enable": false,
+          "enable_sidebar": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_image_zoom_enable": false,
+          "product_quantity_enable": true,
+          "product_quantity_message": false,
+          "product_incoming_message": false,
+          "product_vendor_enable": false,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false,
+          "related_products_enable": true,
+          "enable_payment_button": false,
+          "social_sharing_products": true,
+          "product_reviews_enable": true,
+          "add_to_cart_button_size": "small"
+        }
+      },
+      "page-faq-block-section": {
+        "type": "page-faq-block-section",
+        "blocks": {
+          "1554726785995": {
+            "type": "text",
+            "settings": {
+              "link_text": "How do I track my order?",
+              "content": "<p>Your shipping confirmation email includes a tracking number for the order and the delivery carrier&rsquo;s URL. To review the status of your order, select the link to the carrier&rsquo;s website and follow directions to enter your tracking number.<\/p>\n<p><\/p>\n<p>You can also go to your Infracyte.com account to find order details including shipping dates and tracking numbers. Select the &ldquo;order status&rdquo; button to view your order history.<br>If you still need assistance please contact Customer Support at: orders@infracyte.com. Include your order number and email address associated with your Infracyte.com account. A customer support representative will assist you within one business day.<\/p>"
+            }
+          },
+          "1554726802000": {
+            "type": "text",
+            "settings": {
+              "link_text": "What happens if I don’t get my order when I expected to receive it?",
+              "content": "<p>Most orders are received within 7-9 business days from the time they ship. There can be exceptions due to unexpected weather conditions or other unforeseen events. We ask that you allow up to a total of 7 days for delivery from the time you receive your shipping confirmation. You can view our standard delivery information here.<\/p>\n<p>If you still haven&rsquo;t received your order, we&rsquo;ll help track it down and make sure that you get your order as quickly as possible. Contact Customer Support at orders@infracyte.com. Include your order number and email address associated with your Infracyte.com account. A customer support representative will help you within one business day.<\/p>"
+            }
+          },
+          "1554726960828": {
+            "type": "text",
+            "settings": {
+              "link_text": "What if I don’t get an order\/shipping confirmation?",
+              "content": "<p>Check your SPAM folder. Sometimes Infracyte.com emails are blocked by your provider&rsquo;s filter. To keep this from occurring, add order@infracyte.com to your email address book.<\/p>\n<p>If this isn&rsquo;t the problem, contact Customer Support at info@infracyte.com. Include your concern, order number and the email address associated with your Infracyte.com account. A customer support representative will assist you within one business day.<\/p>"
+            }
+          },
+          "1554726968155": {
+            "type": "text",
+            "settings": {
+              "link_text": "How do I know if my order shipped?",
+              "content": "<p>As soon as your order is on its way, we&rsquo;ll email a shipping confirmation. The email address you provide is the one we use for any order updates. To ensure SkinStore.com emails are not blocked by your provider&rsquo;s filter, you may also want to add info@infracyte.com to your email address book. You can also go to your My Account page to find order details including shipping dates and tracking numbers.<\/p>"
+            }
+          },
+          "1554726974348": {
+            "type": "text",
+            "settings": {
+              "link_text": "How long does it take to receive my order?",
+              "content": "<p>For orders shipped by United States Postal Service (USPS), you can expect delivery in:<\/p>\n<p><\/p>\n<p>Flat Rate Shipping 5 &ndash; 7 business days from the time order is processed<\/p>\n<p>FED-EX 2 Day Shipping 3 -5 business days from the time order is processed<\/p>\n<p>FED-EX Overnight Shipping &nbsp;1 -3 business days from the time order is processed<\/p>"
+            }
+          },
+          "1554726980515": {
+            "type": "text",
+            "settings": {
+              "link_text": "Proceed to checkout",
+              "content": "<p>Once added product into shopping cart. You can proceed to checkout by clicking &ldquo;Checkout Now&rdquo;<\/p>\n<p><\/p>\n<p>Check your order details and confirm by clicking &ldquo;Continue&rdquo;<\/p>"
+            }
+          },
+          "1554726986378": {
+            "type": "text",
+            "settings": {
+              "link_text": "How to add your wishlist \/ compare items into shopping cart?",
+              "content": "<p>While you are browsing any product page. You will able to see the &ldquo;add to wishlist&rdquo; &amp; &ldquo;add to compare&rdquo; buttons. Click on either one as it will saved compare products list or wishlist cart.<\/p>"
+            }
+          },
+          "1554726992125": {
+            "type": "text",
+            "settings": {
+              "link_text": "How does the shopping cart work?",
+              "content": "<p>Each time you add an item to your shopping cart, you will be taken to the shopping cart page. From the shopping cart page you can choose to either Continue Shopping or to proceed to Checkout.<\/p>\n<p><\/p>\n<p>The Secure Checkout will take you through steps to enter a coupon, choose your shipping method and shipping address.<\/p>\n<p>If you&rsquo;re a first time customer, you&rsquo;ll be asked for information to establish your infracyte.com customer account.<\/p>\n<p>If you&rsquo;re a returning customer, you&rsquo;ll be asked for your email address and password.<\/p>\n<p><\/p>\n<p>Once you review the order and enter your payment information, you will be prompted to place your order.<\/p>\n<p><\/p>\n<p>We suggest that you print a copy of the order confirmation page for your records.<\/p>"
+            }
+          },
+          "1554726998034": {
+            "type": "text",
+            "settings": {
+              "link_text": "How do I purchase from Infracyte.com?",
+              "content": "<p>Add item(s) to your shopping bag and just follow the checkout process<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1554726785995",
+          "1554726802000",
+          "1554726960828",
+          "1554726968155",
+          "1554726974348",
+          "1554726980515",
+          "1554726986378",
+          "1554726992125",
+          "1554726998034"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [
+      "1554444611609",
+      "collection-row-1",
+      "collection-list",
+      "collection-row-2",
+      "1553509646294",
+      "1553519877729"
+    ]
+  },
+  "presets": {
+    "Blue": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#dd2525",
+      "color_body_bg": "#fff",
+      "color_body_text": "#585858",
+      "color_borders": "#ececec",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_social_link": "#bbbbbb",
+      "color_footer_text": "#636363",
+      "color_header_background": "#182e49",
+      "color_header_cart_search": "#0f243d",
+      "color_header_text": "#fff",
+      "color_heading_text": "#000",
+      "color_nav_bg": "#182e49",
+      "color_nav_text": "#fff",
+      "color_primary": "#528ec1",
+      "color_secondary": "#dcdcdc",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_fancy_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_pinterest_link": "",
+      "social_sharing_style": "is-normal",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_twitter_link": "",
+      "social_vimeo_link": "",
+      "social_youtube_link": "",
+      "type_accent_font": "montserrat_n5",
+      "type_base_font": "montserrat_n5",
+      "type_base_size": "13px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "montserrat_n7",
+      "type_header_transform": true,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-2": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3"
+      ]
+    },
+    "Light": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#545454",
+      "color_body_bg": "#f3f3f3",
+      "color_body_text": "#858585",
+      "color_borders": "#dedede",
+      "color_footer_bg": "#ffffff",
+      "color_footer_social_link": "#545454",
+      "color_footer_text": "#545454",
+      "color_header_background": "#ffffff",
+      "color_header_cart_search": "#f3f3f3",
+      "color_header_text": "#545454",
+      "color_heading_text": "#2f2f2f",
+      "color_nav_bg": "#9c756f",
+      "color_nav_text": "#ffffff",
+      "color_primary": "#9c756f",
+      "color_secondary": "#f3f3f3",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_sharing_style": "is-normal",
+      "social_twitter_link": "",
+      "type_accent_font": "lato_n7",
+      "type_base_font": "roboto_n4",
+      "type_base_size": "14px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "times_new_roman_n7",
+      "type_header_transform": false,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "slideshow-2": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-2-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-2-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3",
+        "slideshow-2",
+        "featured-content"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{% unless grid_item_width %}
+  {% assign grid_item_width = 'testc' %}
+{% endunless %}
+
+{% unless image_size %}
+  {%- assign image_size = '600x600' -%}
+{% endunless %}
+
+{% unless current_collection %}
+  {% assign current_collection = collection %}
+{% endunless %}
+
+{% assign on_sale = false %}
+{% if product.compare_at_price > product.price %}
+  {% assign on_sale = true %}
+{% endif %}
+
+{% assign sold_out = true %}
+{% if product.available  %}
+  {% assign sold_out = false %}
+{% endif %}
+
+<div class="{{ grid_item_width }}{% if sold_out %} sold-out{% endif %}{% if on_sale %} on-sale{% endif %}">
+
+  <a href="{{ product.url }}" class="{% if childlink.active %} active_link {% endif %}product-grid-nav">
+    <div class="product-grid-image">
+      <div class="product-grid-image--centered">
+        {% if sold_out %}
+          <div class="badge badge--sold-out"><span class="badge-label">{{ 'products.product.sold_out' | t }}</span></div>
+        {% endif %}
+
+        {% if product.featured_image %}
+<img src=" {{ product.featured_image | img_url: "240x240" }}">
+
+        {% else %}
+        {% capture current %}{% cycle 1, 2, 3, 4 %}{% endcapture %}
+        <div>
+        {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+      {% endif %}
+      </div>
+    </div>
+
+    <p class="productnav_title">{{ product.title }}</p>
+
+   
+  </a>
+
+</div>

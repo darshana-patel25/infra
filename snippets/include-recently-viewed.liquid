@@ -1,0 +1,30 @@
+
+<div  class="js-recently-viewed  recently-viewed__section"
+     data-visible-products="4">
+  <div class="wrapper bottom-fix">
+  
+    <div class="recently-products__title grid grid--view-items">
+      <header class="section-header set_mar grid__item"><h2 class="section-header__title rel_hr">Recently Viewed Products</h2></header>
+    </div>
+ 
+  </div>
+
+  {% assign products_per_row = 4 %}
+
+  <div class="wrapper recent-products--grid">
+    <div class="grid grid--view-items">
+      <div class="rv-main js-rv-grid clearfix product-list collection-matrix equal-columns--outside-trim equal-columns--outside-trim equal-columns--clear"
+           data-products-per-slide="4"
+           data-products-limit="5">
+        {% for rvProducts in (0..3) %}
+        <div class="thumbnail rv-box-element rv-box-{{ rvProducts }} rv-element grid__item medium-up--one-quarter small--one-half thumbnail {% cycle 'even', 'odd' %}">
+          <!--Products are dynamically inserted-->
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

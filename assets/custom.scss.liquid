@@ -1,0 +1,357 @@
+/*==================== Global Css =====================*/
+.about_us .about_us_content h1,
+.about_us .feature-row .feature-row__text h2,
+.about_us .image-bar .section-header h2,
+.page_contact h2,
+.page_press h2,
+.page_shipping_returns .rte h2,
+.page_faq h2,
+.login_page form h2{
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 8px;
+  margin-bottom: 26px;
+}
+.about_us .about_us_content .rte,
+.about_us .feature-row .feature-row__text .rte,
+.about_us .image_bar_section .image-bar__content p,
+.page_contact .rte,
+.page_press .rte,
+.page_contact .page_contact_form form input,
+.page_contact .page_contact_form form textarea,
+.page_press .press-block-text a,
+.page_shipping_returns .rte p,
+.page_faq .faq-block-text a,
+.page_faq .faq-block-text .rte,
+.login_page .form_text{
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+}
+.contact_content h2 {
+    padding-top: 20px;
+}
+.page_contact .page_contact_form form input,
+.login_page form input{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #5578b2;
+  border-radius: 0;
+  line-height: 1.46;
+  text-align: left;
+  color: #acacac;
+  margin-bottom: 22.9%;
+  width: 100%;
+  &::placeholder{
+    color: #acacac !important;
+    opacity: 1;
+  }
+  &:focus{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #5578b2;
+  }
+}
+.page_contact .page_contact_form form textarea,
+.login_page form textarea{
+  line-height: 1.46;
+  text-align: left;
+  border: 1px solid #123b7e;
+  min-height: inherit;
+  resize: none;
+  max-height: 120px;
+  border-radius: 0;
+  background-color: transparent;
+  color: #acacac;
+  margin-bottom: 30px;
+  &::placeholder{
+    color: #acacac !important;
+  }
+  &:focus{
+    outline: none;
+    border: 1px solid #5578b2;
+  }
+}
+
+.page_contact .page_contact_form form .btn,
+.login_page form .btn{
+  padding: 13px 13px;
+  background-color: #123b7e;
+  max-width: 100%;
+  color: #ede7df;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*==================== About Page =====================*/
+.about_us{
+  margin-top: 118px;
+  hr{
+    display: none;
+  }
+  .about_us_content{
+    padding-left: 0;
+  }
+  .feature-row--image-with-text{
+    padding-top: 9%;
+    padding-bottom: 12.4%;
+  }
+  .feature-row {
+    .feature-row__item .lazyload__image-wrapper{
+      padding-right: 9px;
+    }
+    .feature-row__text h2,
+    .feature-row__text .rte{
+      color: #123b7e;
+    }
+    .feature-row__text .rte{
+      max-width: 100%;
+      margin-right: 7%;
+    }
+  }
+  .image_bar_section{
+    background-color: #f2f2f2;
+    padding: 92px 0;
+    img{
+      max-width: 30px;
+      max-height: 30px;
+    }
+    .image-bar__content{
+      margin-top: 38%;
+      p{
+        max-width: 100%;
+        margin-bottom: 0;
+        margin-right: 9%;
+        margin-left: 9%;
+      }
+    }
+    .section-header{
+      margin-bottom: 48px;
+    }
+  }
+  .feature-row-about{
+    margin-top: 12.2%;
+    margin-bottom: 5.2%;
+    .feature-row__item .lazyload__image-wrapper{
+      padding-right: 0px;
+      img{
+        padding-left: 3.6%;
+      }
+    }
+  }
+}
+
+/*==================== Contact Page =====================*/
+.page_contact {
+  margin-top: 48px;
+  .page_contact_form{
+    width: 284px;
+    margin: 8.9% auto 18.6%;
+    padding: 0 0px;
+    form input{
+      
+    }
+  }
+}
+
+/*==================== Press Page =====================*/
+.page_press{
+  margin-top: 4.7%;
+  .press-block-text{
+    margin-top: 10%;
+    a{
+      width: 100%;
+      display: inline-block;
+      margin-bottom: 25px;
+      &:hover{
+        font-weight: bold;
+        color: #e2b2b2 !important;
+      }
+      &:focus{
+        font-weight: bold;
+        color: #e2b2b2;
+      }
+    }
+  }
+}
+
+/*==================== Shipping And Returns Page =====================*/
+.page_shipping_returns{
+  margin-top: 6.8%;
+  padding-right: 1%;
+  .rte {
+    margin-bottom: 0;
+    h2{
+      margin-top: 6.6%;
+      &:first-child{
+        margin-top: 0;
+      }
+    }
+    p{
+      margin-bottom: 27px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+/*==================== FAQ Page =====================*/
+.page_faq {
+  margin-top: 11.5%;
+  .faq-block-text {
+    .set{
+      &:last-child{
+        a.h2{
+          margin-bottom: 0;
+        }
+      }
+      a{
+        text-transform: inherit;
+        margin-bottom: 21px;
+        &.active{
+          font-weight: bold;
+        }
+        .close-icon {
+          display: inline-block;
+          top: 14px;
+          right: 0;
+          width: 9px;
+          height: 9px;
+          transform: rotate(0deg);
+          transition: transform 300ms ease;
+          &::after{
+            content: "";
+            display: block;
+            background: #123b7e;
+            height: 7px;
+            width: 1px;
+            position: absolute;
+            left: 3px;
+          }
+          &::before {
+            content: "";
+            display: block;
+            background: #123b7e;
+            width: 7px;
+            height: 1px;
+            position: absolute;
+            top: 3px;
+          }
+          &.spin{
+            width: 11px;
+            &:after{
+              display: none;
+            }
+            &::before {
+              content: "";
+              width: 9px;
+              height: 2px;
+            }
+          }
+        }
+      }
+      .content{
+        margin-bottom: 7%;
+        padding-right: 5%;
+      }
+    }
+  }
+}
+
+/*==================== max-width: 768px =====================*/
+@media only screen and (max-width: 768px){
+  
+  /*==================== About Page =====================*/
+  .about_us{
+    margin-top: 50px;
+    .feature-row{
+      display: inline-block;
+      width: 100%;
+      padding-top: 20px;
+      .feature-row__item .lazyload__image-wrapper{
+        padding-right: 0;
+      }
+      .feature-row__item{
+        text-align: center !important;
+      }
+      .feature-row__text .rte{
+        margin: 0 auto;
+      }
+    }
+    .image_bar_section {
+      .image-bar__content {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      .image-bar__content p{
+        margin: 0 20.5%;
+      }
+    }
+    .feature-row-about{
+      margin-top: 0;
+      margin-bottom: 0;
+      .feature-row__item .lazyload__image-wrapper{
+        img{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  
+  .page_faq {
+    .faq-block-text {
+      .set{
+        .content{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  
+}
+.addtocartcollform button{
+  color:#123b7e !important;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+button:focus{
+  outline:none;
+}
+.product_info{
+ position:relative;
+}
+.product-grid-item:hover .addtocartcollform {
+  display: block;
+}
+.account_title{
+  margin-bottom: 10px;
+  letter-spacing:8px;
+}
+.account_content, #addresses{
+  h1, h2{
+   letter-spacing: 8px;
+  }
+}
+.addtocartcollform {
+  width: 100%;
+  display: none;
+  position: absolute;
+  bottom: 0;
+  top:15px;
+  margin: 0;
+  z-index: 99999;
+  background: #fff;
+  height: 80px;
+}
+/*==================== max-width: 480px =====================*/
+@media only screen and (max-width: 480px){
+  
+}

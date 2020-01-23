@@ -1,0 +1,41 @@
+<div class="text-left faq-block-text">
+  {% for block in section.blocks %}
+    <div class="set">
+      {% if block.settings.link_text != blank %}
+        <a class="h2 toggle" href="javascript:void(0)"><span class="close-icon fa-plus"></span> {{ block.settings.link_text }}</a>
+        {% if block.settings.content != blank %}
+        <ul class="rte content site-footer__linklist" style="display: none;">
+          {{ block.settings.content }}
+        </ul>
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+{% schema %}
+  {
+    "name": "Block Text",
+    "settings": [
+	],
+    "blocks": [
+	  {
+        "type": "text",
+        "name": "text",
+        "settings": [
+		  {
+            "type": "text",
+            "id": "link_text",
+            "label": "Toggle Title",
+            "default": "Toggle Title"
+          },
+		  {
+            "type": "richtext",
+            "id": "content",
+            "label": "Toggle Content",
+			"default": "<p>Toggle Content</p>"
+          }
+	  	]
+	  }
+	]
+  }
+{% endschema %}
