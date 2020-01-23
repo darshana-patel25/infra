@@ -30,10 +30,10 @@
     "ajax_cart_method": "drawer",
     "share_image": "",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/infracyteusa\/",
+    "social_facebook_link": "https://www.facebook.com/infracyteusa/",
     "social_pinterest_link": "",
     "social_google_plus_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/infracyte\/",
+    "social_instagram_link": "https://www.instagram.com/infracyte/",
     "social_snapchat_link": "",
     "social_tumblr_link": "",
     "social_youtube_link": "",
@@ -45,7 +45,7 @@
     "share_pinterest": false,
     "superscript_decimals": false,
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_logo_image": "shopify://shop_images/logo.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -67,14 +67,14 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Lips",
-              "nav_image1": "shopify:\/\/shop_images\/326Main_Attraction_6186ff7d-4be9-40f9-a802-1cfe05a6444d_1.jpg",
-              "link1": "https:\/\/infracyte.myshopify.com\/collections\/lips\/lips_regular",
+              "nav_image1": "shopify://shop_images/326Main_Attraction_6186ff7d-4be9-40f9-a802-1cfe05a6444d_1.jpg",
+              "link1": "https://infracyte.myshopify.com/collections/lips/lips_regular",
               "navtitle1": "Luscious Lips",
-              "nav_image2": "shopify:\/\/shop_images\/322Twinkle_Winkle_1.jpg",
-              "link2": "https:\/\/infracyte.myshopify.com\/collections\/lips\/lips_sensitive",
+              "nav_image2": "shopify://shop_images/322Twinkle_Winkle_1.jpg",
+              "link2": "https://infracyte.myshopify.com/collections/lips/lips_sensitive",
               "navtitle2": "Luscious Lips Sensitive",
-              "nav_image3": "shopify:\/\/shop_images\/mega_menu_lips.png",
-              "link3": "shopify:\/\/collections\/lips",
+              "nav_image3": "shopify://shop_images/mega_menu_lips.png",
+              "link3": "shopify://collections/lips",
               "navtitle3": "Shop All",
               "nav_image4": "",
               "link4": "",
@@ -88,20 +88,20 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Face",
-              "nav_image1": "shopify:\/\/shop_images\/mega_menu_cleanse.png",
-              "link1": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_cleanse-tone",
+              "nav_image1": "shopify://shop_images/mega_menu_cleanse.png",
+              "link1": "https://infracyte.myshopify.com/collections/face/face_cleanse-tone",
               "navtitle1": "Cleanse & Tone",
-              "nav_image2": "shopify:\/\/shop_images\/mega_menu_repair.png",
-              "link2": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_correct",
+              "nav_image2": "shopify://shop_images/mega_menu_repair.png",
+              "link2": "https://infracyte.myshopify.com/collections/face/face_correct",
               "navtitle2": "Correct",
-              "nav_image3": "shopify:\/\/shop_images\/mega_menu_moisturize.png",
-              "link3": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_moisturize",
+              "nav_image3": "shopify://shop_images/mega_menu_moisturize.png",
+              "link3": "https://infracyte.myshopify.com/collections/face/face_moisturize",
               "navtitle3": "Moisturize",
-              "nav_image4": "shopify:\/\/shop_images\/mega_menu_eye_and_neck_3cd782eb-b131-453a-82cc-78305d654a8c.png",
-              "link4": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_eye-neck",
+              "nav_image4": "shopify://shop_images/mega_menu_eye_and_neck_3cd782eb-b131-453a-82cc-78305d654a8c.png",
+              "link4": "https://infracyte.myshopify.com/collections/face/face_eye-neck",
               "navtitle4": "Eye & Neck",
-              "nav_image5": "shopify:\/\/shop_images\/mega_menu_protect.png",
-              "link5": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_protect",
+              "nav_image5": "shopify://shop_images/mega_menu_protect.png",
+              "link5": "https://infracyte.myshopify.com/collections/face/face_protect",
               "navtitle5": "Protect"
             }
           }
@@ -113,12 +113,12 @@
         "settings": {
           "menu": "main-menu",
           "menu_mobile": "mobile-menu",
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify://shop_images/logo.png",
           "logo_max_width": "287.5",
           "show_announcement": true,
           "announcement_text": "SALE IS NOW ON!",
-          "announcement_link": "shopify:\/\/collections\/all",
-          "imitators_text": "<h2>WATCH OUT FOR FAKERS<\/h2>\n  <span class=\"border_imitors\"><\/span>\n  <p>We have been alerted about the sale of counterfeit INFRACYTE Luscious \n    Lips in the market. To ensure quality & authenticity of your INFRACYTE Luscious Lips product, always purchase it from our authorized sellers. \n    For more information about our sellers, please <a href=\"\/pages\/contact\">contact us.<\/a><\/p>\n  <p class=\"red_cnt\">These are not our authorized sellers<\/p>\n  <a href=\"\">www.iskinchina.cc<\/a><br>\n  <a href=\"\">blog.sina.com.cn\/lipaddict<\/a><br>\n  <a href=\"\">www.weibo.com\/Lipaddict<\/a>"
+          "announcement_link": "shopify://collections/all",
+          "imitators_text": "<h2>WATCH OUT FOR FAKERS</h2>\n  <span class=\"border_imitors\"></span>\n  <p>We have been alerted about the sale of counterfeit INFRACYTE Luscious \n    Lips in the market. To ensure quality & authenticity of your INFRACYTE Luscious Lips product, always purchase it from our authorized sellers. \n    For more information about our sellers, please <a href=\"/pages/contact\">contact us.</a></p>\n  <p class=\"red_cnt\">These are not our authorized sellers</p>\n  <a href=\"\">www.iskinchina.cc</a><br>\n  <a href=\"\">blog.sina.com.cn/lipaddict</a><br>\n  <a href=\"\">www.weibo.com/Lipaddict</a>"
         }
       },
       "footer": {
@@ -152,7 +152,7 @@
             "type": "newsletter",
             "settings": {
               "title": "",
-              "subtext": "<p>Sign up for newsletter<\/p>",
+              "subtext": "<p>Sign up for newsletter</p>",
               "width": "25%"
             }
           }
@@ -176,17 +176,17 @@
           "collection-list-0": {
             "type": "collection",
             "settings": {
-              "image": "shopify:\/\/shop_images\/featured.jpg",
+              "image": "shopify://shop_images/featured.jpg",
               "block_text": "Shop Face",
-              "collection": "shopify:\/\/collections\/face"
+              "collection": "shopify://collections/face"
             }
           },
           "collection-list-1": {
             "type": "collection",
             "settings": {
-              "image": "shopify:\/\/shop_images\/featured2.jpg",
+              "image": "shopify://shop_images/featured2.jpg",
               "block_text": "Shop Lips",
-              "collection": "shopify:\/\/collections\/lips"
+              "collection": "shopify://collections/lips"
             }
           }
         },
@@ -228,17 +228,17 @@
           "1553509646294-0": {
             "type": "collection",
             "settings": {
-              "image": "shopify:\/\/shop_images\/featured3.jpg",
+              "image": "shopify://shop_images/featured3.jpg",
               "block_text": "Shop Moisturize",
-              "collection": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_moisturize"
+              "collection": "https://infracyte.myshopify.com/collections/face/face_moisturize"
             }
           },
           "1553509646294-1": {
             "type": "collection",
             "settings": {
-              "image": "shopify:\/\/shop_images\/featured4.jpg",
+              "image": "shopify://shop_images/featured4.jpg",
               "block_text": "Shop Correct",
-              "collection": "https:\/\/infracyte.myshopify.com\/collections\/face\/face_correct"
+              "collection": "https://infracyte.myshopify.com/collections/face/face_correct"
             }
           }
         },
@@ -329,10 +329,10 @@
       "image-with-text": {
         "type": "image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/infracyte-lips.png",
+          "image": "shopify://shop_images/infracyte-lips.png",
           "layout": "left",
           "title": "OUR PROMISE",
-          "text": "<p>A professional skin transformation program that works to diminish visible signs of aging. Designed by top scientists from the fields of cellular and molecular biology, chemistry, biophysics and medicine and qualified dermatologists, INFRACYTE&trade; incorporates scientifically advanced technology and top nutrient formulation to give this program three (3) fundamental benefits: corrects previous damages, protects healthy skin and prevents future damage. Meticulously and scientifically blended by well-established laboratories in United States, INFRACYTE&trade; provides quality products.<\/p>",
+          "text": "<p>A professional skin transformation program that works to diminish visible signs of aging. Designed by top scientists from the fields of cellular and molecular biology, chemistry, biophysics and medicine and qualified dermatologists, INFRACYTE&trade; incorporates scientifically advanced technology and top nutrient formulation to give this program three (3) fundamental benefits: corrects previous damages, protects healthy skin and prevents future damage. Meticulously and scientifically blended by well-established laboratories in United States, INFRACYTE&trade; provides quality products.</p>",
           "button_label": "",
           "button_link": ""
         }
@@ -343,33 +343,33 @@
           "1554439218414": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ic_0000_Layer-3.png",
+              "image": "shopify://shop_images/ic_0000_Layer-3.png",
               "link": "",
-              "cta_label": "<p><strong>Transform<\/strong><\/p>\n<p>Don&rsquo;t cover up with make-up! INFRACYTE treatments help exfoliate and stimulate cell turnover so you can reveal your own brighter, more youthful skin! &nbsp;<\/p>"
+              "cta_label": "<p><strong>Transform</strong></p>\n<p>Don&rsquo;t cover up with make-up! INFRACYTE treatments help exfoliate and stimulate cell turnover so you can reveal your own brighter, more youthful skin! &nbsp;</p>"
             }
           },
           "1554439240185": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ic_0001_Layer-4.png",
+              "image": "shopify://shop_images/ic_0001_Layer-4.png",
               "link": "",
-              "cta_label": "<p><strong>Support<\/strong><\/p>\n<p><\/p>\n<p>INFRACYTE is so much more than just a surface treatment. Powerful proprietary peptides help to rebuild collagen under the skin, reducing the appearance of fine lines and wrinkles, improving skin texture and increasing skin elasticity, leaving your skin feeling supple and smooth.<\/p>"
+              "cta_label": "<p><strong>Support</strong></p>\n<p></p>\n<p>INFRACYTE is so much more than just a surface treatment. Powerful proprietary peptides help to rebuild collagen under the skin, reducing the appearance of fine lines and wrinkles, improving skin texture and increasing skin elasticity, leaving your skin feeling supple and smooth.</p>"
             }
           },
           "1554439268432": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ic_0002_Layer-5.png",
+              "image": "shopify://shop_images/ic_0002_Layer-5.png",
               "link": "",
-              "cta_label": "<p><strong>Anti-Age<\/strong><\/p>\n<p>The best treatment is prevention. &nbsp;But when that&rsquo;s not an option, INFRACYTE&rsquo;s anti-aging solutions can help prevent further damage, as well as turn back time so you can have the younger skin you remember!<\/p>"
+              "cta_label": "<p><strong>Anti-Age</strong></p>\n<p>The best treatment is prevention. &nbsp;But when that&rsquo;s not an option, INFRACYTE&rsquo;s anti-aging solutions can help prevent further damage, as well as turn back time so you can have the younger skin you remember!</p>"
             }
           },
           "1554439283961": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ic_0003_Layer-6.png",
+              "image": "shopify://shop_images/ic_0003_Layer-6.png",
               "link": "",
-              "cta_label": "<p><strong>Clinically proven<\/strong><\/p>\n<p>Designed by cosmetic scientists and dermatologists, INFRACYTE is supported by science and trusted by doctors around the world to bring proven results.<\/p>"
+              "cta_label": "<p><strong>Clinically proven</strong></p>\n<p>Designed by cosmetic scientists and dermatologists, INFRACYTE is supported by science and trusted by doctors around the world to bring proven results.</p>"
             }
           }
         },
@@ -386,22 +386,22 @@
       "1554444611609": {
         "type": "image-collage",
         "settings": {
-          "image_left": "shopify:\/\/shop_images\/collage2.jpg",
-          "image_center_left": "shopify:\/\/shop_images\/collage4.png",
-          "image_center_right": "shopify:\/\/shop_images\/collage5.png",
-          "image_center_bottom": "shopify:\/\/shop_images\/collage3.png",
-          "image_right": "shopify:\/\/shop_images\/collage.jpg",
-          "shop_url1": "shopify:\/\/collections\/lips",
-          "shop_url2": "shopify:\/\/collections\/skin"
+          "image_left": "shopify://shop_images/collage2.jpg",
+          "image_center_left": "shopify://shop_images/collage4.png",
+          "image_center_right": "shopify://shop_images/collage5.png",
+          "image_center_bottom": "shopify://shop_images/collage3.png",
+          "image_right": "shopify://shop_images/collage.jpg",
+          "shop_url1": "shopify://collections/lips",
+          "shop_url2": "shopify://collections/skin"
         }
       },
       "about-image-with-text": {
         "type": "about-image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/infracyte-skin.png",
+          "image": "shopify://shop_images/infracyte-skin.png",
           "layout": "right",
           "title": "THE TRANSFORMATION",
-          "text": "<p>A professional skin transformation program that works to diminish visible signs of aging. Designed by top scientists from the fields of cellular and molecular biology, chemistry, biophysics and medicine, as well as qualified dermatologists, INFRACYTE&trade; incorporates scientifically advanced technology and top nutrient formulation to give this program three (3) fundamental benefits: corrects previous damages, protects healthy skin and prevents future damage. Meticulously and scientifically blended by well-established laboratories in United States, INFRACYTE&trade; provides quality products.<\/p>",
+          "text": "<p>A professional skin transformation program that works to diminish visible signs of aging. Designed by top scientists from the fields of cellular and molecular biology, chemistry, biophysics and medicine, as well as qualified dermatologists, INFRACYTE&trade; incorporates scientifically advanced technology and top nutrient formulation to give this program three (3) fundamental benefits: corrects previous damages, protects healthy skin and prevents future damage. Meticulously and scientifically blended by well-established laboratories in United States, INFRACYTE&trade; provides quality products.</p>",
           "button_label": "",
           "button_link": ""
         }
@@ -546,63 +546,63 @@
             "type": "text",
             "settings": {
               "link_text": "How do I track my order?",
-              "content": "<p>Your shipping confirmation email includes a tracking number for the order and the delivery carrier&rsquo;s URL. To review the status of your order, select the link to the carrier&rsquo;s website and follow directions to enter your tracking number.<\/p>\n<p><\/p>\n<p>You can also go to your Infracyte.com account to find order details including shipping dates and tracking numbers. Select the &ldquo;order status&rdquo; button to view your order history.<br>If you still need assistance please contact Customer Support at: orders@infracyte.com. Include your order number and email address associated with your Infracyte.com account. A customer support representative will assist you within one business day.<\/p>"
+              "content": "<p>Your shipping confirmation email includes a tracking number for the order and the delivery carrier&rsquo;s URL. To review the status of your order, select the link to the carrier&rsquo;s website and follow directions to enter your tracking number.</p>\n<p></p>\n<p>You can also go to your Infracyte.com account to find order details including shipping dates and tracking numbers. Select the &ldquo;order status&rdquo; button to view your order history.<br>If you still need assistance please contact Customer Support at: orders@infracyte.com. Include your order number and email address associated with your Infracyte.com account. A customer support representative will assist you within one business day.</p>"
             }
           },
           "1554726802000": {
             "type": "text",
             "settings": {
               "link_text": "What happens if I don’t get my order when I expected to receive it?",
-              "content": "<p>Most orders are received within 7-9 business days from the time they ship. There can be exceptions due to unexpected weather conditions or other unforeseen events. We ask that you allow up to a total of 7 days for delivery from the time you receive your shipping confirmation. You can view our standard delivery information here.<\/p>\n<p>If you still haven&rsquo;t received your order, we&rsquo;ll help track it down and make sure that you get your order as quickly as possible. Contact Customer Support at orders@infracyte.com. Include your order number and email address associated with your Infracyte.com account. A customer support representative will help you within one business day.<\/p>"
+              "content": "<p>Most orders are received within 7-9 business days from the time they ship. There can be exceptions due to unexpected weather conditions or other unforeseen events. We ask that you allow up to a total of 7 days for delivery from the time you receive your shipping confirmation. You can view our standard delivery information here.</p>\n<p>If you still haven&rsquo;t received your order, we&rsquo;ll help track it down and make sure that you get your order as quickly as possible. Contact Customer Support at orders@infracyte.com. Include your order number and email address associated with your Infracyte.com account. A customer support representative will help you within one business day.</p>"
             }
           },
           "1554726960828": {
             "type": "text",
             "settings": {
-              "link_text": "What if I don’t get an order\/shipping confirmation?",
-              "content": "<p>Check your SPAM folder. Sometimes Infracyte.com emails are blocked by your provider&rsquo;s filter. To keep this from occurring, add order@infracyte.com to your email address book.<\/p>\n<p>If this isn&rsquo;t the problem, contact Customer Support at info@infracyte.com. Include your concern, order number and the email address associated with your Infracyte.com account. A customer support representative will assist you within one business day.<\/p>"
+              "link_text": "What if I don’t get an order/shipping confirmation?",
+              "content": "<p>Check your SPAM folder. Sometimes Infracyte.com emails are blocked by your provider&rsquo;s filter. To keep this from occurring, add order@infracyte.com to your email address book.</p>\n<p>If this isn&rsquo;t the problem, contact Customer Support at info@infracyte.com. Include your concern, order number and the email address associated with your Infracyte.com account. A customer support representative will assist you within one business day.</p>"
             }
           },
           "1554726968155": {
             "type": "text",
             "settings": {
               "link_text": "How do I know if my order shipped?",
-              "content": "<p>As soon as your order is on its way, we&rsquo;ll email a shipping confirmation. The email address you provide is the one we use for any order updates. To ensure SkinStore.com emails are not blocked by your provider&rsquo;s filter, you may also want to add info@infracyte.com to your email address book. You can also go to your My Account page to find order details including shipping dates and tracking numbers.<\/p>"
+              "content": "<p>As soon as your order is on its way, we&rsquo;ll email a shipping confirmation. The email address you provide is the one we use for any order updates. To ensure SkinStore.com emails are not blocked by your provider&rsquo;s filter, you may also want to add info@infracyte.com to your email address book. You can also go to your My Account page to find order details including shipping dates and tracking numbers.</p>"
             }
           },
           "1554726974348": {
             "type": "text",
             "settings": {
               "link_text": "How long does it take to receive my order?",
-              "content": "<p>For orders shipped by United States Postal Service (USPS), you can expect delivery in:<\/p>\n<p><\/p>\n<p>Flat Rate Shipping 5 &ndash; 7 business days from the time order is processed<\/p>\n<p>FED-EX 2 Day Shipping 3 -5 business days from the time order is processed<\/p>\n<p>FED-EX Overnight Shipping &nbsp;1 -3 business days from the time order is processed<\/p>"
+              "content": "<p>For orders shipped by United States Postal Service (USPS), you can expect delivery in:</p>\n<p></p>\n<p>Flat Rate Shipping 5 &ndash; 7 business days from the time order is processed</p>\n<p>FED-EX 2 Day Shipping 3 -5 business days from the time order is processed</p>\n<p>FED-EX Overnight Shipping &nbsp;1 -3 business days from the time order is processed</p>"
             }
           },
           "1554726980515": {
             "type": "text",
             "settings": {
               "link_text": "Proceed to checkout",
-              "content": "<p>Once added product into shopping cart. You can proceed to checkout by clicking &ldquo;Checkout Now&rdquo;<\/p>\n<p><\/p>\n<p>Check your order details and confirm by clicking &ldquo;Continue&rdquo;<\/p>"
+              "content": "<p>Once added product into shopping cart. You can proceed to checkout by clicking &ldquo;Checkout Now&rdquo;</p>\n<p></p>\n<p>Check your order details and confirm by clicking &ldquo;Continue&rdquo;</p>"
             }
           },
           "1554726986378": {
             "type": "text",
             "settings": {
-              "link_text": "How to add your wishlist \/ compare items into shopping cart?",
-              "content": "<p>While you are browsing any product page. You will able to see the &ldquo;add to wishlist&rdquo; &amp; &ldquo;add to compare&rdquo; buttons. Click on either one as it will saved compare products list or wishlist cart.<\/p>"
+              "link_text": "How to add your wishlist / compare items into shopping cart?",
+              "content": "<p>While you are browsing any product page. You will able to see the &ldquo;add to wishlist&rdquo; &amp; &ldquo;add to compare&rdquo; buttons. Click on either one as it will saved compare products list or wishlist cart.</p>"
             }
           },
           "1554726992125": {
             "type": "text",
             "settings": {
               "link_text": "How does the shopping cart work?",
-              "content": "<p>Each time you add an item to your shopping cart, you will be taken to the shopping cart page. From the shopping cart page you can choose to either Continue Shopping or to proceed to Checkout.<\/p>\n<p><\/p>\n<p>The Secure Checkout will take you through steps to enter a coupon, choose your shipping method and shipping address.<\/p>\n<p>If you&rsquo;re a first time customer, you&rsquo;ll be asked for information to establish your infracyte.com customer account.<\/p>\n<p>If you&rsquo;re a returning customer, you&rsquo;ll be asked for your email address and password.<\/p>\n<p><\/p>\n<p>Once you review the order and enter your payment information, you will be prompted to place your order.<\/p>\n<p><\/p>\n<p>We suggest that you print a copy of the order confirmation page for your records.<\/p>"
+              "content": "<p>Each time you add an item to your shopping cart, you will be taken to the shopping cart page. From the shopping cart page you can choose to either Continue Shopping or to proceed to Checkout.</p>\n<p></p>\n<p>The Secure Checkout will take you through steps to enter a coupon, choose your shipping method and shipping address.</p>\n<p>If you&rsquo;re a first time customer, you&rsquo;ll be asked for information to establish your infracyte.com customer account.</p>\n<p>If you&rsquo;re a returning customer, you&rsquo;ll be asked for your email address and password.</p>\n<p></p>\n<p>Once you review the order and enter your payment information, you will be prompted to place your order.</p>\n<p></p>\n<p>We suggest that you print a copy of the order confirmation page for your records.</p>"
             }
           },
           "1554726998034": {
             "type": "text",
             "settings": {
               "link_text": "How do I purchase from Infracyte.com?",
-              "content": "<p>Add item(s) to your shopping bag and just follow the checkout process<\/p>"
+              "content": "<p>Add item(s) to your shopping bag and just follow the checkout process</p>"
             }
           }
         },
@@ -696,7 +696,7 @@
               "type": "text",
               "settings": {
                 "title": "Get in touch",
-                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "richtext": "<p>Use this text to share information about your brand with your customers.</p>",
                 "width": "50%"
               }
             },
@@ -868,7 +868,7 @@
               "type": "text",
               "settings": {
                 "title": "Get in touch",
-                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "richtext": "<p>Use this text to share information about your brand with your customers.</p>",
                 "width": "50%"
               }
             },
